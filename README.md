@@ -112,22 +112,6 @@ movies" → personalized "for you" recommendations (cold-start and
 rated-user paths both checked). The React app builds cleanly with `npm
 run build`.
 
-## Resume bullet points (for your Accenture application)
 
-- Re-architected a Streamlit movie recommender into a full-stack web app
-  (**React, FastAPI, PostgreSQL**), adding JWT authentication, a ratings/
-  watchlist system, and a REST API consumed by a decoupled SPA frontend.
-- Built a hybrid recommendation engine combining **Sentence-BERT
-  embeddings with FAISS vector search** (content-based) and a
-  ratings-weighted nearest-neighbour model (personalized), with automatic
-  fallback to TF-IDF for environments without ML dependencies installed.
-- Designed a normalized relational schema (users, movies, ratings,
-  watchlist) and RESTful endpoints for search, recommendations, and
-  user-personalization features.
-- Containerization-ready structure with environment-based config, CORS
-  handling, and a deployment path to Vercel (frontend) + Render/Railway
-  (backend) + managed Postgres.
 
-Tweak the wording to match what you actually built/deployed — recruiters
-and ATS systems both respond well to specific tech names (FastAPI, JWT,
-FAISS, Sentence-BERT, React Router) so keep those explicit.
+
