@@ -1,0 +1,17 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+sqlalchemy==2.0.35
+pydantic[email]==2.9.2
+pydantic-settings==2.5.2
+python-jose[cryptography]==3.3.0
+bcrypt==4.2.0
+python-multipart==0.0.9
+python-dotenv==1.0.1
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+faiss-cpu==1.8.0.post1
+# sentence-transformers left out for a fast deploy — TF-IDF fallback kicks in
+# automatically (already tested). Add it back later for semantic embeddings:
+# sentence-transformers==3.1.1
+requests==2.32.3

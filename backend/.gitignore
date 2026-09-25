@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+movies.db
+data/movies.index
+data/movies_meta.pkl
+.venv/
+../static
